@@ -32,7 +32,7 @@
     }
 }
 .jump{
-    animation: jump 1s linear;
+    animation: jump 0.3s linear;
 }
 @keyframes jump {
     0% {
