@@ -15,8 +15,8 @@ function jump(){
 }
 
 let isAlive = setInterval (function() {
-    let dinoTop = perseInt(window.getComputedStyle(dino).getPropertyValue("top"));
-    let cactusLeft = perseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
+    let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
+    let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
     if(cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
         alert ("GAME OVER!")
