@@ -26,6 +26,8 @@
     position: relative;
     top: 110px;
     left: 580px;
+}
+.active{
     animation: cactusMov 1s infinite linear;
 }
 @keyframes cactusMov {
